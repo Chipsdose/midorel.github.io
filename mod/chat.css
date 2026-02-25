@@ -166,12 +166,12 @@ p.worldsay tr[bgcolor="#FFAEA1"] td { background-color: var(--color_worldsay_sun
 	visibility: visible;
 	font-size: var(--chat_font-size) !important;
 	content: "Drop: ";
-	color: #a49e9e;
+	color: var(--chat_whisper_highlight);
 	font-style: italic;
 }
 
 .importantitemdrop a > b {
 	visibility: visible;
-	font-size: 12px !important;
+	font-size: var(--chat_font-size) !important;
 	color: var(--link-color);
 }
